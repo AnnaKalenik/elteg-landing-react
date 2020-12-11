@@ -6,9 +6,9 @@ const Footer = () => {
             <div className="container">
 
                 <div className="promo_wrapper">
-                    <div class="footer_logo">Элтэг+</div>
-                    <div class="footer_copyright">ООО «ЭлтэгПлюс» &copy;2020</div>
-                    <div class="footer_copyright">Дизайн и разработка <span>annakalenikalex@gmail.com</span></div>
+                    <div className="footer_logo">Элтэг+</div>
+                    <div className="footer_copyright">ООО «ЭлтэгПлюс» &copy;2020</div>
+                    <div className="footer_copyright">Дизайн и разработка <span>annakalenikalex@gmail.com</span></div>
                 </div>
                 
             </div>

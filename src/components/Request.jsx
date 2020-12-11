@@ -13,7 +13,7 @@ const Request = () => {
                         <input placeholder="Номер телефона *" required type="tel" name="phone" />
                         <input placeholder="E-mail *" required type="email" name="email" />
                         <textarea placeholder="Ваше сообщение..." required name="message"></textarea>
-                        <button class="button">Отправить</button>
+                        <button className="button">Отправить</button>
                     </form>
                 </div>
                 
