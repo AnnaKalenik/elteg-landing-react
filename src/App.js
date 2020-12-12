@@ -4,8 +4,8 @@ import About from './components/About.jsx';
 import Services from './components/Services.jsx';
 import Clients from './components/Clients.jsx';
 import Calculations from './components/Calculations.jsx';
-import Request from './components/Request.jsx';
 import Contacts from './components/Contacts/Contacts.jsx';
+import Request from './components/Request.jsx';
 import Map from './components/Map.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -23,8 +23,8 @@ class App extends React.Component {
                 <Services />
                 <Clients />
                 <Calculations />
-                <Request />
                 <Contacts />
+                <Request />
                 <Map />
                 <Footer />
             </div>

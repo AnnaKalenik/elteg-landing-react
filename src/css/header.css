@@ -36,8 +36,8 @@
     font-weight: 600;
 }
 
-.header_nav_list_item:not(:last-child) {
-    margin: 0 30px;
+.header_nav_list_item:not(:first-child) {
+    margin-left: 60px;
 }
 
 .header_promo {
@@ -90,7 +90,3 @@
     border: none;
     margin: 0 5px;
 }
-
-
-
-

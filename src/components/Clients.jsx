@@ -6,7 +6,7 @@ const Clients = () => {
             <div className="container">
                 
                 <div className="clients_wrapper">
-                    <h2 className="title">Наши клиенты</h2>
+                    <h2 className="title black">Наши клиенты<span></span></h2>
                     <div className="clients_client_image">
                         <img src="https://via.placeholder.com/160x90" alt="logo_green" />
                     </div>

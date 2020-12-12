@@ -1,0 +1,18 @@
+.section.about {
+    color: rgb(74, 87, 86);
+}
+
+.about_info {
+    display: flex;
+}
+
+.about_wrapper img {
+    width: 450px;
+}
+
+.about_info_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}

@@ -6,7 +6,7 @@ const Request = () => {
             <div className="container">
                 
                 <div className="request_wrapper">
-                    <h2 className="title">Оставить заявку</h2>
+                    <h2 className="title">Оставить заявку<span></span></h2>
                     <p>Для получения полной информации оставьте заявку и мы свяжемся с вами.</p>
                     <form method="POST">
                         <input placeholder="Ваше имя *" required type="text" name="name" />

@@ -1,0 +1,26 @@
+.section.services {
+    background-color: rgb(59, 59, 59);
+    color: #fff;
+}
+
+.services_wrapper .title span {
+    color: #fff;
+}
+
+.services_first_block {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.service_title,
+.item_title {
+    color: rgb(74, 87, 86);
+}
+
+.service_slider,
+.service_slider_list {
+    display: flex;
+}
+
+.service_slider_list {
+   list-style-type: none;
+}

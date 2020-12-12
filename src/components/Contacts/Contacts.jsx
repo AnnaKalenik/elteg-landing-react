@@ -6,7 +6,7 @@ const Contacts = () => {
             <div className="container">
 
                 <div className="contacts_wrapper">
-                    <h2 className="title">Контактная информация</h2>
+                    <h2 className="title">Контактная информация<span></span></h2>
                     <div className="contacts_address">
                         <p>Беларусь, г.Минск, Бетонный проезд 13, офис 29</p>
                     </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Alarm from '../../images/alarma-sirena_1.png';
 import Detector from '../../images/fire_detector.png';
 
