@@ -1,0 +1,15 @@
+.clients_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.clients_wrapper img {
+    height: 90px;
+    filter: grayscale(100%);
+}
+
+.clients_wrapper img:hover {
+    filter: none;
+}

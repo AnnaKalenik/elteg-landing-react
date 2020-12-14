@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/clients.css";
 
 const Clients = () => {
     return (
@@ -6,19 +7,10 @@ const Clients = () => {
             <div className="container">
                 
                 <div className="clients_wrapper">
-                    <h2 className="title black">Наши клиенты<span></span></h2>
-                    <div className="clients_client_image">
-                        <img src="https://via.placeholder.com/160x90" alt="logo_green" />
-                    </div>
-                    <div className="clients_client_image">
-                        <img src="https://via.placeholder.com/160x90" alt="logo_oma" />
-                    </div>
-                    <div className="clients_client_image">
-                        <img src="https://via.placeholder.com/160x90" alt="logo_viber" />
-                    </div>
-                    <div className="clients_client_image">
-                        <img src="https://via.placeholder.com/160x90" alt="logo_sanatorium" />
-                    </div>
+                    <img src="../images/logo_airport.png" alt="logo_airport" />
+                    <img src="../images/logo_svitanok.png" alt="logo_svitanok" />
+                    <img src="../images/logo_green.png" alt="logo_green" />
+                    <img src="../images/logo_oma.png" alt="logo_oma" />
                 </div>
                 
             </div>

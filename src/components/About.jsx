@@ -1,6 +1,4 @@
 import React from 'react';
-import Worker from '../images/worker.png';
-
 import "../css/about.css";
 
 const About = () => {
@@ -11,7 +9,7 @@ const About = () => {
                 <div className="about_wrapper">
                     <h2 className="title black">О компании<span></span></h2>
                     <div className="about_info">
-                        <img src={Worker} alt="worker"/>
+                        <img src="../images/worker_and_extinguisher.png" alt="worker_and_extinguisher"/>
                         <div className="about_info_description">
                             <p>
                                 ООО «ЭлтэгПлюс» занимается реализацией широкого комплекса противопожарных проектов в сфере промышленного и гражданского строительства, 
