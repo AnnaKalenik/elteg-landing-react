@@ -6,10 +6,12 @@
 }
 
 .clients_wrapper img {
-    height: 90px;
+    height: 80px;
     filter: grayscale(100%);
+    opacity: 0.7;
 }
 
 .clients_wrapper img:hover {
     filter: none;
+    opacity: 1;
 }

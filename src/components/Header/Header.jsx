@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container">
 
                 <div className="header_main">
-                    <div className="header_logo"><a href="#">Элтэг <span>+</span></a></div>
+                    <div className="header logo"><a href="#">Элтэг <span>+</span></a></div>
                     <nav className="header_nav">
                         <ul className="header_nav_list">
                             <li className="header_nav_list_item"><a href="#">Главная</a></li>
@@ -24,7 +24,7 @@ const Header = () => {
 
             </div>
         </header>
-    );
-};
+    )
+}
 
 export default Header;

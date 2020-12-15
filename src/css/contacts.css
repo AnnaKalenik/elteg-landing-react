@@ -6,5 +6,58 @@
 .contacts_info {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.contacts_info h3 {
+    text-transform: uppercase;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.contacts_info li {
+    width: calc(25% - 40px);
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.icon.location {
+    background-image: url(../images/icon_location.svg);
+}
+
+.icon.phone {
+    background-image: url(../images/icon_phone.svg);
+    width: 100px;
+    height: 100px;
+}
+
+.icon.email {
+    background-image: url(../images/icon_email.svg);
+}
+
+.icon.time {
+    background-image: url(../images/icon_wall-calendar.svg);
+}
+
+.contacts_info span {
+    font-weight: 700;
+}
+
+.contacts_wrapper .button {
+    display: block;
+    margin: 20px auto 0;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/footer.css';
 
 const Footer = () => {
     return (
@@ -6,14 +7,14 @@ const Footer = () => {
             <div className="container">
 
                 <div className="promo_wrapper">
-                    <div className="footer_logo">Элтэг+</div>
+                    <div className="footer logo"><a href="">Элтэг <span>+</span></a></div>
                     <div className="footer_copyright">ООО «ЭлтэгПлюс» &copy;2020</div>
-                    <div className="footer_copyright">Дизайн и разработка <span>annakalenikalex@gmail.com</span></div>
+                    <div className="footer_developer">Дизайн и разработка<br /><span>annakalenikalex@gmail.com</span></div>
                 </div>
                 
             </div>
         </footer>
-    );
-};
+    )
+}
 
 export default Footer;

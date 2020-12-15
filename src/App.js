@@ -3,9 +3,8 @@ import Header from './components/Header/Header.jsx';
 import About from './components/About.jsx';
 import Services from './components/Services/Services.jsx';
 import Clients from './components/Clients.jsx';
-import Calculations from './components/Calculations.jsx';
 import Contacts from './components/Contacts/Contacts.jsx';
-import Request from './components/Request.jsx';
+import Form from './components/Form/Form.jsx';
 import Map from './components/Map.jsx';
 import Footer from './components/Footer.jsx';
 
@@ -22,9 +21,8 @@ class App extends React.Component {
                 <About />
                 <Services />
                 <Clients />
-                <Calculations />
                 <Contacts />
-                <Request />
+                <Form />
                 <Map />
                 <Footer />
             </div>
