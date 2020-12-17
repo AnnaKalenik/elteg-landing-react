@@ -61,3 +61,83 @@
     display: block;
     margin: 20px auto 0;
 }
+
+/*Modal*/
+
+.modal {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal_content {
+    transform: scale(0.5);
+    transition: 0.4s all;   
+}
+
+.modal_content.active {
+    transform: scale(1);
+}
+
+.modal_content img {  
+    height: 90vh;
+}
+
+/*LicenseModal*/
+
+.modal_images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    height: 90vh;
+    max-width: 63vh;
+    position: relative;
+}
+
+
+.license_slider_btn {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background-color: #da3838;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    position: absolute;
+    top: 50%;
+}
+
+.license_slider_btn:hover {
+    box-shadow: 0 0 15px rgb(209, 209, 209);
+}
+
+.license_slider_btn.prev {
+    left: -100px;
+}
+
+.license_slider_btn.next {
+    right: -100px;
+}
+
+
+
+

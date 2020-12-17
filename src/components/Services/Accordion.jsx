@@ -9,7 +9,7 @@ const Accordion = ({image, title, body}) => {
             <div onClick={() => setIsOpen(!isOpen)} className={(isOpen ? "accordion_heading active" : "accordion_heading")}>
                 <img src={image} alt="icon"/>
                 <h3 className="accordion_title">{title}</h3>
-                <span className={(isOpen ? "accordion_btn active" : "accordion_btn")}>&gt;</span>
+                <button className={(isOpen ? "accordion_btn active" : "accordion_btn")}>&gt;</button>
             </div>
             {isOpen && (<div className="accordion_content">{body}</div>)}
         </div>

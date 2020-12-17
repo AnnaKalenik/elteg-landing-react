@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import CertificateModal from './CertificateModal.jsx';
+import LicenseModal from './LicenseModal.jsx';
+
 import '../../css/contacts.css';
 
 const Contacts = () => {
+    const [licenseActive, setLicenseActive] = useState(false);
+    const [sertificateActive, setSertificateActive] = useState(false);
+
     return (
         <section className="section contacts">
             <div className="container">
@@ -47,13 +53,17 @@ const Contacts = () => {
                                 <span>Сб и Вс</span> выходные дни
                             </div>
                         </li>
-                    </ul>
-                    <button className="button">Лицензия</button>
-                    <button className="button">Свидетельство</button>
+                    </ul>                    
+                    <button className="button" onClick={() => setLicenseActive(true)}>Лицензия</button>
+                    <LicenseModal active={licenseActive} setActive={setLicenseActive} />
+
+                    <button className="button" onClick={() => setSertificateActive(true)}>Свидетельство</button>
+                    <CertificateModal active={sertificateActive} setActive={setSertificateActive} />
                 </div>
                 
             </div>
         </section>
+
     )
 }
 

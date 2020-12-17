@@ -63,6 +63,12 @@ body {
     box-shadow: 0 0 15px 2px rgb(139, 139, 139);
 }
 
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
 .title {
     font-size: 35px;
     text-transform: uppercase;
