@@ -1,17 +1,22 @@
-.clients_wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
+.section.clients {
+    color: rgb(74, 87, 86);
 }
 
-.clients_wrapper img {
-    height: 80px;
+.images_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.images_wrapper img {
+    height: 60px;
     filter: grayscale(100%);
     opacity: 0.7;
 }
 
-.clients_wrapper img:hover {
+.images_wrapper img:hover {
     filter: none;
     opacity: 1;
 }

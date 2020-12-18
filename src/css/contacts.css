@@ -7,7 +7,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin: 80px 0;
 }
 
 .contacts_info h3 {
@@ -27,8 +27,8 @@
 }
 
 .icon {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -36,21 +36,21 @@
 }
 
 .icon.location {
-    background-image: url(../images/icon_location.svg);
+    background-image: url(../images/contacts_images/icon_location.svg);
 }
 
 .icon.phone {
-    background-image: url(../images/icon_phone.svg);
-    width: 100px;
-    height: 100px;
+    background-image: url(../images/contacts_images/icon_phone.svg);
+    width: 70px;
+    height: 70px;
 }
 
 .icon.email {
-    background-image: url(../images/icon_email.svg);
+    background-image: url(../images/contacts_images/icon_email.svg);
 }
 
 .icon.time {
-    background-image: url(../images/icon_wall-calendar.svg);
+    background-image: url(../images/contacts_images/icon_wall-calendar.svg);
 }
 
 .contacts_info span {
@@ -136,6 +136,10 @@
 
 .license_slider_btn.next {
     right: -100px;
+}
+
+.license_slider_btn.prev.hidden {
+    opacity: 0;
 }
 
 

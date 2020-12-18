@@ -1,15 +1,14 @@
 import React from 'react';
-import '../../css/form.css';
-import './mail.php';
+import '../css/form.css';
 
 const Form = () => {
     return (
-        <section className="section form">
+        <section className="section form" id="form">
             <div className="container">
                 
-                <h2 className="title black">Оставить заявку<span></span></h2>
+                <h2 className="title black">Оставить заявку</h2>
                 <p>Для получения полной информации оставьте заявку и мы свяжемся с вами.</p>
-                <form action="mail.php" method="POST">
+                <form method="POST">
                     <div className="form_wrapper">
                         <div className="form_item">
                             <input placeholder="Ваше имя *" required type="text" name="user_name" />

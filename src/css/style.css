@@ -34,6 +34,10 @@
     font-weight: 800;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'OpenSans', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
@@ -57,10 +61,12 @@ body {
     border-radius: 50px;
     padding: 20px 50px;
     cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .button:hover {
-    box-shadow: 0 0 15px 2px rgb(139, 139, 139);
+    box-shadow: 0 0 20px 2px rgb(255, 255, 255);
+    transform: rotate(-2deg);
 }
 
 button, 
@@ -69,32 +75,26 @@ button:focus {
     outline: none;
 }
 
+h2 {
+    text-align: center;
+}
+
 .title {
     font-size: 35px;
     text-transform: uppercase;
-    margin-bottom: 120px;
-    display: flex;
+    margin-bottom: 40px;
 }
 
-.title.white span {
-    border-bottom: 1px solid rgb(255, 255, 255);
+.title:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
-.title.black span {
-    border-bottom: 1px solid rgb(74, 87, 86);
-}
-
-.title span {
-    width: 100px;
-    opacity: 0.3;
-    padding: 0 150px;
-    margin: 0 0 0px 20px;  
-}
 
 p:not(:last-child) {
     margin-bottom: 50px;
 }
 
 .section {
-    padding: 120px 0;
+    padding: 100px 0;
 }

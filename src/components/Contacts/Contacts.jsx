@@ -9,11 +9,11 @@ const Contacts = () => {
     const [sertificateActive, setSertificateActive] = useState(false);
 
     return (
-        <section className="section contacts">
+        <section className="section contacts" id="contacts">
             <div className="container">
 
                 <div className="contacts_wrapper">
-                    <h2 className="title white">Контактная информация<span></span></h2>
+                    <h2 className="title white">Контактная информация</h2>
                     <ul className="contacts_info">
                         <li className="contacts_location">
                             <div className="icon location"></div>
@@ -53,7 +53,7 @@ const Contacts = () => {
                                 <span>Сб и Вс</span> выходные дни
                             </div>
                         </li>
-                    </ul>                    
+                    </ul>
                     <button className="button" onClick={() => setLicenseActive(true)}>Лицензия</button>
                     <LicenseModal active={licenseActive} setActive={setLicenseActive} />
 

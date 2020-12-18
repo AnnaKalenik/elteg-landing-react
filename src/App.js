@@ -4,7 +4,7 @@ import About from './components/About.jsx';
 import Services from './components/Services/Services.jsx';
 import Clients from './components/Clients.jsx';
 import Contacts from './components/Contacts/Contacts.jsx';
-import Form from './components/Form/Form.jsx';
+import Form from './components/Form.jsx';
 import Map from './components/Map.jsx';
 import Footer from './components/Footer.jsx';
 

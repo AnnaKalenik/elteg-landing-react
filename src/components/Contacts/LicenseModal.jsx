@@ -1,8 +1,14 @@
 import React from 'react';
+
+import Slider1 from '../../images/contacts_images/licenses/license_1.png';
+import Slider2 from '../../images/contacts_images/licenses/license_2.png';
+import Slider3 from '../../images/contacts_images/licenses/license_3.png';
+import Slider4 from '../../images/contacts_images/licenses/license_4.png';
+
 import '../../css/contacts.css';
 
 const LicenseModal = ({active, setActive}) => {
-    
+   
     const sliderNextPrev = (event) => {
         const dir = event.target.dataset.dir;
 
@@ -32,10 +38,10 @@ const LicenseModal = ({active, setActive}) => {
         <div className={active ? "modal active" : "modal"} onClick={() => setActive(false)}>
             <div className={active ? "modal_content active" : "modal_content"} onClick={event => event.stopPropagation()}>
                 <div className="modal_images">
-                    <img className="license_slider_image" src="../../images/licenses/license_1.png" alt="свидетельство" />
-                    <img className="license_slider_image" src="../../images/licenses/license_2.png" alt="свидетельство" />
-                    <img className="license_slider_image" src="../../images/licenses/license_3.png" alt="свидетельство" />
-                    <img className="license_slider_image" src="../../images/licenses/license_4.png" alt="свидетельство" />
+                    <img className="license_slider_image" src={Slider1} alt="свидетельство" />
+                    <img className="license_slider_image" src={Slider2} alt="свидетельство" />
+                    <img className="license_slider_image" src={Slider3} alt="свидетельство" />
+                    <img className="license_slider_image" src={Slider4} alt="свидетельство" />
                 </div>
                 <button data-dir="prev" onClick={sliderNextPrev} className="license_slider_btn prev">&lt;</button>
                 <button data-dir="next" onClick={sliderNextPrev} className="license_slider_btn next">&gt;</button>
