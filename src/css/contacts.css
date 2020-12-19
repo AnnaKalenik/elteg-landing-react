@@ -14,7 +14,7 @@
     text-transform: uppercase;
     margin: 20px 0;
     padding-bottom: 10px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 1.5px solid #fff;
 }
 
 .contacts_info li {
@@ -33,7 +33,14 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
+    transition: all 0.3s ease-in-out;
 }
+
+.icon:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 
 .icon.location {
     background-image: url(../images/contacts_images/icon_location.svg);
@@ -111,7 +118,6 @@
     position: relative;
 }
 
-
 .license_slider_btn {
     width: 50px;
     height: 50px;
@@ -121,13 +127,14 @@
     border-radius: 50px;
     background-color: #da3838;
     cursor: pointer;
-    transition: all 300ms ease-in-out;
+    transition: all 0.4s ease-in-out;
     position: absolute;
     top: 50%;
 }
 
 .license_slider_btn:hover {
     box-shadow: 0 0 15px rgb(209, 209, 209);
+    transform: scale(1.1);
 }
 
 .license_slider_btn.prev {
@@ -141,7 +148,3 @@
 .license_slider_btn.prev.hidden {
     opacity: 0;
 }
-
-
-
-

@@ -6,10 +6,10 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
 
-                <div className="promo_wrapper">
+                <div className="footer_wrapper">
                     <div className="footer logo"><a href="#header">Элтэг <span>+</span></a></div>
                     <div className="footer_copyright">ООО «ЭлтэгПлюс» &copy;2020</div>
-                    <div className="footer_developer">Дизайн и разработка<br /><span>annakalenikalex@gmail.com</span></div>
+                    <div className="footer_developer">Дизайн и разработка <span>annakalenikalex@gmail.com</span></div>
                 </div>
                 
             </div>

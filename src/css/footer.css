@@ -5,10 +5,16 @@ footer {
     padding: 30px 0;
 }
 
-.promo_wrapper {
+.footer_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer_wrapper div {
+    max-width: 33.3%;
+    width: 100%;
+    text-align: center;
 }
 
 .footer.logo a {

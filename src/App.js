@@ -9,6 +9,8 @@ import Map from './components/Map.jsx';
 import Footer from './components/Footer.jsx';
 
 import './css/style.css';
+import './css/media.css';
+
 class App extends React.Component {
     constructor() {
         super();

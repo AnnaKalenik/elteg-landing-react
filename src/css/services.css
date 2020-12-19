@@ -24,6 +24,7 @@
     cursor: pointer;
     transition: all 500ms ease-in-out;
     position: relative;
+    text-align: center;
 }
 
 .accordion_heading:hover,
@@ -70,26 +71,32 @@
 
 .service_accordion_list {
     list-style-type: none;
-    padding: 50px 0;
+    padding: 50px 30px;
     justify-content: space-evenly;
     background-color: rgba(212, 212, 212, 0.5);
-}   
+}
 
 .list_item {
     flex-direction: column;
     justify-content: center;
 }
 
+.list_item:not(:last-child) {
+    margin-right: 40px;
+}
+
 .accordion_title {
     text-transform: uppercase;
     font-size: 25px;
+    margin-right: 80px;
 }
 
 .list_item img {
-    width: 150px;
+    width: 120px;
 }
 
 .item_title {
+    text-align: center;
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 40px;
