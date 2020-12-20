@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-import First_slide from '../../images/header_images/alarma-sirena.png';
-import Second_slide from '../../images/header_images/fire_detector.png';
-import Third_slide from '../../images/header_images/sprinkler.png';
+import prev_image_index from '../../images/header_images/alarma-sirena.png';
+import activeIndex from '../../images/header_images/fire_detector.png';
+import next_image_index from '../../images/header_images/sprinkler.png';
 
 const images_arr = [
-    <img key={First_slide} src={First_slide} alt="alarm_signal" />,
-    <img key={Second_slide} src={Second_slide} alt="fire_detector" />,
-    <img key={Third_slide} src={Third_slide} alt="sprinkler" />,
+    <img key={prev_image_index} src={prev_image_index} alt="alarm_signal" />,
+    <img key={activeIndex} src={activeIndex} alt="fire_detector" />,
+    <img key={next_image_index} src={next_image_index} alt="sprinkler" />,
 ]
 
 const Promo = () => {
@@ -15,8 +15,8 @@ const Promo = () => {
   
     useEffect( () => {
         setInterval( () => {
-            setActiveIndex( (current) =>
-                current === images_arr.length - 1 ? 0 : current + 1
+            setActiveIndex( (activeIndex) =>
+            activeIndex === images_arr.length - 1 ? 0 : activeIndex + 1
             )
         }, 4000)
         return () => clearInterval()
